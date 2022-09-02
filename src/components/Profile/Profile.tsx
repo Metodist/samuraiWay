@@ -9,7 +9,7 @@ export const Profile = () => {
                 <img src="https://wc.wallpaperuse.com/wallp/13-134363_s.jpg" alt="background-content"/>
             </div>
             <div>
-                ava+description
+                ava+description+text
             </div>
 
             <MyPosts/>
