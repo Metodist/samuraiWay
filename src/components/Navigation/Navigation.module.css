@@ -1,4 +1,15 @@
 .navigation {
     background: chartreuse;
     grid-area: navigation;
+    padding: 20px;
+}
+
+.item a{
+    color: #041364;
+    text-decoration: none;
+
+}
+
+.item a.NavLink {
+    color: #ff0000;
 }
