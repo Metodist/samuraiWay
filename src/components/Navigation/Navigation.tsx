@@ -4,10 +4,11 @@ import style from "./Navigation.module.css"
 export const Navigation = () => {
     return (
         <div className={style.navigation}>
-            <div><a href="src/components/Navigation/Navigation#asd">Profile </a></div>
-            <div><a href="src/components/Navigation/Navigation#asd">News Feed </a></div>
-            <div><a href="src/components/Navigation/Navigation#asd">Messages </a></div>
-            <div><a href="src/components/Navigation/Navigation#asd">Messages </a></div>
+            <div><a href="/profile">Profile </a></div>
+            <div><a href="/dialogs">Dialogs</a></div>
+            <div><a href="/news">News</a></div>
+            <div><a href="/music">Music </a></div>
+            <div><a href="/settings">Settings </a></div>
         </div>
     )
 
