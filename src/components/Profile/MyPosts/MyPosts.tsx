@@ -5,10 +5,10 @@ export const MyPosts = () => {
     return (
         <>
             <div>
-                My posts
+               <h3>My posts</h3>
             </div>
             <textarea></textarea>
-            <button>Add post</button>
+            <div><button>Add post</button></div>
 
             <Post message="text 1" likeCount={1}/>
             <Post message="text 2" likeCount={2}/>
